@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 6000px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+html{
+    font-size: 62.58%;
+    overflow-x: hidden;
+}
+body{
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+/**Start Navbar**/
+.navbar-nav .nav-item .nav-link{
+    color: #ddd !important;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    transform: 0.2s;
+}
+/**End Navbar**/
+
+/**Start Home**/
+.airforce{
+    margin-top: 15rem;
+}
+.box-content h3{
+    font-size: 6rem;
+    text-transform: capitalize;
+}
+.box-content p{
+    font-size: 1.5rem;
+}
+ .btn{
+    border: 1px solid #000;
+    text-transform: uppercase;
+    width: 120px;
+    height: 30px;
+    padding: .8rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+
+}
+ .btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.imagse img{
+    max-width: 100%;
+}
+.box-content .color {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+   display: inline-block;
+}
+.box-content .color:last-child{
+    background-color: blue !important;
+}
+.box-content .price{
+    width: 80px;
+    border: 1px solid #000;
+    text-align: center;
+    height: 30px;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/*start about*/
+
+.jordan{
+    background-color: #ddd;
+    box-shadow: 2px 2px 2px 2px #000;
+    clip-path: polygon(1% 16%, 49% 0, 100% 0, 99% 100%, 59% 100%, 0 100%, 0% 50%);
+
+
+}
+.color-about{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-right: 10px;
+    cursor: pointer;
+   display: inline-block;
+}
+.color-about:last-child{
+    background-color: green !important;
+}
+/**start blazer**/
+.blazer .color-about:last-child{
+    background-color: green !important;
+}
+
+.box-content-revw {
+    margin-top: 10rem;
+    background-color: #000;
+    width: 400px;
+    height: 500px;
+}
+.box-content-revw h6 , h4 ,h2{
+    color: #fff;
+    margin-top: 4rem;
+}
+.btn-revw{
+    margin-top: 2rem;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff !important;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+   width: 200px;
+   margin-left: 10rem;
+   font-size: 1.2rem;
+}
+.btn-revw:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+img{
+    max-width: 100%;
+}
+/* start Footer*/
+
+.nav-link{
+    color: #ddd;
+    font-size: 1.5rem;
+    transition: 00.2s;
+    color: b;
+
+}
+.nav-link:hover{
+    color: #000;
+}
+h1{
+    font-size: 1.2rem;
+}
